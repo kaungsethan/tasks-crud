@@ -1,0 +1,10 @@
+export const inputText = document.querySelector("#inputText");
+export const addBtn = document.querySelector("#addBtn");
+export const taskCountContainer = document.querySelector("#taskCountContainer");
+export const contentContainer = document.querySelector(".contentContainer");
+export const createdLists = document.querySelector("#createdLists");
+export const checked = document.querySelector("#checked");
+export const deleteAllBtn = document.querySelector("#deleteAllBtn");
+export const doneAllBtn = document.querySelector("#doneAllBtn");
+export const taskTemplate = document.querySelector("#taskTemplate");
+export const editInputTemplate = document.querySelector("#editInputTemplate");

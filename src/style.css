@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import url("../node_modules/sweetalert2/dist/sweetalert2.min.css");
+
+.swal2-cancel{
+  @apply bg-[#000000] text-[#cbcbcb];
+}
+
+.swal2-confirm{
+  @apply bg-[#000000] text-[#cbcbcb];
+}
+.swal2-confirm:hover{
+  @apply bg-[#1d1d1d] text-[#cbcbcb];
+}
+.swal2-cancel:hover{
+  @apply bg-[#1d1d1d] text-[#cbcbcb];
+}
+.swal2-popup{
+  @apply bg-[#f5f5f5];
+}
