@@ -1,3 +1,4 @@
+import Swal from "sweetalert2";
 import {
   addList,
   deleteAll,
@@ -30,7 +31,13 @@ export const addListHandler = () => {
   if (inputText.value.trim()) {
     addList(inputText.value);
   } else {
-    alert("Task Required");
+    Swal.fire({
+      position: "top-end",
+      icon: "warning",
+      title: "No Task Found",
+      showConfirmButton: false,
+      timer: 1500,
+    });
   }
 };
 
@@ -40,7 +47,13 @@ export const addListWithEnterHandler = (event) => {
       addList(inputText.value);
     }
   } else {
-    alert("Task Required");
+    Swal.fire({
+      position: "top-end",
+      icon: "warning",
+      title: "No Task Found",
+      showConfirmButton: false,
+      timer: 1500,
+    });
   }
 };
 
